@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgb(37, 63, 12), rgb(30, 31, 99));
+}
+
+#cabecalho{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(135, 160, 89, 0.2);
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#principal{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgba(175, 202, 139, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+p{
+    width: 70%;
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+input{
+    height: 25px;
+    border-radius: 10px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(66, 61, 61);
+}
+
+#rodape{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(135, 160, 89, 0.2);
+}
+
+#contatos{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    margin: 20px;
+}
+
+#i_facebook {
+    color: blue;
+}
+
+#i_whatsapp {
+    color: #35ad46;
+}
+
+#i_instagram {
+    background-image: linear-gradient(0.15turn, #ffd000 5%, #ff7b91 50%, #be19ff 75%);
+    border-radius: 6px;
+}
+
+#copyright{
+    width: 100%;
+    height: 30%;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+}
